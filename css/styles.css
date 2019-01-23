@@ -1,0 +1,191 @@
+/*
+Theme Name: Washer Service
+Author: Loiko Vitalii
+Version: 1.0.0
+*/
+
+.works .works__list .section__title,
+.reviews .reviews__content .section__title {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.wpcf7-form-control-wrap {
+  display: block;
+}
+
+.faq__list .section__title {
+  width: 100%;
+}
+
+.wpcf7-not-valid-tip {
+  text-align: left;
+  text-indent: 20px;
+}
+
+.reviews__message p {
+   margin: 0;
+}
+
+
+/* Fix bugs */
+
+.section__title {
+	margin-bottom: 20px !important;
+    font-size: 36px !important;
+}
+
+.contact-wrapper {
+    padding-top: 30px !important;
+}
+
+.contact-form__label {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    margin-bottom: 30px !important;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 50px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px !important;
+    font-size: 20px !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 50px !important;
+    right: 5px !important;
+}
+
+.contact-form {
+    width: 85% !important;
+    padding-bottom: 30px !important;
+}
+
+
+
+
+
+
+
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+	border: 2px solid #ff0000;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng,
+div.wpcf7-aborted {
+	border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+	border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	display: inline-block;
+	margin: 0 0 0 1em;
+}
+
+span.wpcf7-list-item-label::before,
+span.wpcf7-list-item-label::after {
+	content: " ";
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 .ajax-loader {
+	visibility: hidden;
+	display: inline-block;
+	background-image: url('../../images/ajax-loader.gif');
+	width: 16px;
+	height: 16px;
+	border: none;
+	padding: 0;
+	margin: 0 0 0 4px;
+	vertical-align: middle;
+}
+
+div.wpcf7 .ajax-loader.is-active {
+	visibility: visible;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+
+div.wpcf7 .wpcf7-recaptcha iframe {
+	margin-bottom: 0;
+}
+
+div.wpcf7 input[type="file"] {
+	cursor: pointer;
+}
+
+div.wpcf7 input[type="file"]:disabled {
+	cursor: default;
+}
